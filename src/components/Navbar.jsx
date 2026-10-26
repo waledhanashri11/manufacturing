@@ -48,14 +48,14 @@ export default function Navbar() {
           </div>
 
           <div className="top-bar-right">
-            <span className="top-meta-badge">GST: 26EOKPS6065H1ZD</span>
+            <span className="top-meta-badge">sascorporation.com</span>
             <span className="top-divider">|</span>
             <a href="tel:+919561240625" className="top-contact-link">
               <Phone size={12} className="text-amber" />
               <span>+91 95612 40625</span>
             </a>
             <span className="top-divider">|</span>
-            <a href="mailto:sandscorporationpvtltd@gmail.com" className="top-contact-link">
+            <a href="mailto:sandscorporationpvtltd@gmail.com" className="top-contact-link" title="Corporate & Division Emails">
               <Mail size={12} className="text-cyan" />
               <span>sandscorporationpvtltd@gmail.com</span>
             </a>

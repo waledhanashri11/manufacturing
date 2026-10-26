@@ -431,12 +431,12 @@ export default function EngineeringPage() {
                   <Mail size={22} />
                 </div>
                 <div>
-                  <div className="info-title">RFQ Drawing Submission</div>
-                  <a href="mailto:sandscorporationpvtltd@gmail.com" className="info-val" style={{ color: 'var(--eng-primary)', wordBreak: 'break-all' }}>
-                    sandscorporationpvtltd@gmail.com
+                  <div className="info-title">Engineering Division Email</div>
+                  <a href="mailto:engineering.solutions@sascorporation.com" className="info-val" style={{ color: 'var(--eng-primary)', wordBreak: 'break-all', display: 'block' }}>
+                    engineering.solutions@sascorporation.com
                   </a>
                   <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '0.2rem' }}>
-                    Submit AutoCAD, PDF, and P&ID drawings
+                    Corporate: <a href="mailto:sandscorporationpvtltd@gmail.com" style={{ color: 'var(--text-muted)' }}>sandscorporationpvtltd@gmail.com</a>
                   </div>
                 </div>
               </div>

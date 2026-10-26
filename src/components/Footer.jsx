@@ -47,23 +47,26 @@ export default function Footer() {
           </div>
 
           <div className="footer-col">
-            <h5>Official Location</h5>
-            <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem' }}>
+            <h5>Official Contact &amp; Divisions</h5>
+            <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '0.85rem' }}>
               <MapPin size={18} color="#f59e0b" style={{ flexShrink: 0, marginTop: '3px' }} />
-              <p style={{ fontSize: '0.875rem', lineHeight: '1.6', color: '#cbd5e1' }}>
-                S&S Corporation, C Block, Pramukh Sangam, Samarvarni, Silvasaa, Dadra & Nagar Haveli
+              <p style={{ fontSize: '0.875rem', lineHeight: '1.5', color: '#cbd5e1', margin: 0 }}>
+                S&S Corporation, C Block, Pramukh Sangam, Samarvarni, Silvasaa, Dadra &amp; Nagar Haveli
               </p>
             </div>
-            <div style={{ fontSize: '0.85rem', color: '#94a3b8', display: 'flex', flexDirection: 'column', gap: '0.4rem', marginBottom: '1.25rem' }}>
+            <div style={{ fontSize: '0.825rem', color: '#94a3b8', display: 'flex', flexDirection: 'column', gap: '0.35rem', marginBottom: '1rem' }}>
               <div><strong style={{ color: '#ffffff' }}>Phone:</strong> <a href="tel:+919561240625" style={{ color: '#38bdf8' }}>+91 95612 40625</a></div>
-              <div><strong style={{ color: '#ffffff' }}>Email:</strong> <a href="mailto:sandscorporationpvtltd@gmail.com" style={{ color: '#38bdf8' }}>sandscorporationpvtltd@gmail.com</a></div>
+              <div><strong style={{ color: '#ffffff' }}>Web:</strong> <span style={{ color: '#fbbf24', fontFamily: 'monospace' }}>www.sascorporation.com</span></div>
+              <div><strong style={{ color: '#fbbf24' }}>Engineering:</strong> <a href="mailto:engineering.solutions@sascorporation.com" style={{ color: '#cbd5e1', wordBreak: 'break-all' }}>engineering.solutions@sascorporation.com</a></div>
+              <div><strong style={{ color: '#38bdf8' }}>AquaCorp:</strong> <a href="mailto:aquacorp@sascorporation.com" style={{ color: '#cbd5e1', wordBreak: 'break-all' }}>aquacorp@sascorporation.com</a></div>
+              <div><strong style={{ color: '#94a3b8' }}>Corporate:</strong> <a href="mailto:sandscorporationpvtltd@gmail.com" style={{ color: '#cbd5e1', wordBreak: 'break-all' }}>sandscorporationpvtltd@gmail.com</a></div>
             </div>
             <div style={{ display: 'flex', gap: '0.75rem', fontSize: '0.825rem' }}>
               <Link to="/industries" style={{ color: '#94a3b8' }}>Industries</Link>
               <span>•</span>
               <Link to="/about" style={{ color: '#94a3b8' }}>About Firm</Link>
               <span>•</span>
-              <Link to="/contact" style={{ color: '#38bdf8' }}>Contact & RFQ</Link>
+              <Link to="/contact" style={{ color: '#38bdf8' }}>Contact &amp; RFQ</Link>
             </div>
           </div>
         </div>

@@ -339,49 +339,59 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* OFFICIAL EMAIL CARD */}
-              <div className="info-card">
-                <div className="info-icon" style={{ background: 'var(--chem-bg-subtle)', color: 'var(--chem-primary)' }}>
-                  <Mail size={24} />
+              {/* DEDICATED EMAILS DIRECTORY */}
+              <div className="info-card" style={{ flexDirection: 'column', alignItems: 'stretch', gap: '0.9rem' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.85rem', borderBottom: '1px solid var(--border-subtle)', paddingBottom: '0.75rem' }}>
+                  <div className="info-icon" style={{ background: 'var(--chem-bg-subtle)', color: 'var(--chem-primary)' }}>
+                    <Mail size={22} />
+                  </div>
+                  <div>
+                    <div className="info-title">Division &amp; Corporate Emails</div>
+                    <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Official domain: <strong>sascorporation.com</strong></span>
+                  </div>
                 </div>
-                <div style={{ flexGrow: 1, minWidth: 0 }}>
-                  <div className="info-title">Official Correspondence Email</div>
-                  <a
-                    href="mailto:sandscorporationpvtltd@gmail.com"
-                    className="info-val"
-                    style={{
-                      color: 'var(--chem-primary)',
-                      fontSize: '0.975rem',
-                      fontWeight: 700,
-                      wordBreak: 'break-all',
-                      display: 'block'
-                    }}
-                  >
-                    sandscorporationpvtltd@gmail.com
-                  </a>
 
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginTop: '0.5rem' }}>
-                    <button
-                      type="button"
-                      onClick={handleCopyEmail}
-                      style={{
-                        display: 'inline-flex',
-                        alignItems: 'center',
-                        gap: '0.35rem',
-                        fontSize: '0.75rem',
-                        fontWeight: 600,
-                        padding: '0.25rem 0.55rem',
-                        borderRadius: '6px',
-                        background: 'var(--bg-card-nested)',
-                        border: '1px solid var(--border-subtle)',
-                        color: copiedEmail ? '#059669' : 'var(--text-muted)',
-                        cursor: 'pointer'
-                      }}
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+                  {/* ENGINEERING EMAIL */}
+                  <div style={{ background: 'var(--eng-bg-subtle)', border: '1px solid rgba(245, 158, 11, 0.25)', borderRadius: '8px', padding: '0.75rem 0.9rem' }}>
+                    <div style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--eng-primary)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '0.2rem' }}>
+                      S&amp;S Engineering Solutions:
+                    </div>
+                    <a
+                      href="mailto:engineering.solutions@sascorporation.com"
+                      style={{ color: 'var(--text-heading)', fontWeight: 700, fontSize: '0.925rem', wordBreak: 'break-all', display: 'block' }}
                     >
-                      {copiedEmail ? <Check size={12} /> : <Copy size={12} />}
-                      <span>{copiedEmail ? 'Copied!' : 'Copy'}</span>
-                    </button>
-                    <span style={{ fontSize: '0.775rem', color: 'var(--text-muted)' }}>Response within 24 hrs</span>
+                      engineering.solutions@sascorporation.com
+                    </a>
+                    <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>Piping, skid drawings, automation &amp; RFQs</span>
+                  </div>
+
+                  {/* CHEMICALS EMAIL */}
+                  <div style={{ background: 'var(--chem-bg-subtle)', border: '1px solid rgba(2, 132, 199, 0.25)', borderRadius: '8px', padding: '0.75rem 0.9rem' }}>
+                    <div style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--chem-primary)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '0.2rem' }}>
+                      AquaCorp Chemicals:
+                    </div>
+                    <a
+                      href="mailto:aquacorp@sascorporation.com"
+                      style={{ color: 'var(--text-heading)', fontWeight: 700, fontSize: '0.925rem', wordBreak: 'break-all', display: 'block' }}
+                    >
+                      aquacorp@sascorporation.com
+                    </a>
+                    <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>Water test reports, cooling tower &amp; boiler programs</span>
+                  </div>
+
+                  {/* CORPORATE / GENERAL EMAIL */}
+                  <div style={{ background: 'var(--bg-card-nested)', border: '1px solid var(--border-card)', borderRadius: '8px', padding: '0.75rem 0.9rem' }}>
+                    <div style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '0.2rem' }}>
+                      Corporate &amp; Administrative Desk:
+                    </div>
+                    <a
+                      href="mailto:sandscorporationpvtltd@gmail.com"
+                      style={{ color: 'var(--text-heading)', fontWeight: 700, fontSize: '0.925rem', wordBreak: 'break-all', display: 'block' }}
+                    >
+                      sandscorporationpvtltd@gmail.com
+                    </a>
+                    <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>General correspondence, billing &amp; vendor registration</span>
                   </div>
                 </div>
               </div>

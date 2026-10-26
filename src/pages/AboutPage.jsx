@@ -428,8 +428,27 @@ export default function AboutPage() {
                 </div>
 
                 <div className="cert-row">
-                  <span style={{ color: 'var(--text-muted)' }}>Official Email</span>
-                  <strong style={{ color: 'var(--text-heading)' }}>sandscorporationpvtltd@gmail.com</strong>
+                  <span style={{ color: 'var(--text-muted)' }}>Official Domain</span>
+                  <strong style={{ color: '#fbbf24', fontFamily: 'monospace' }}>www.sascorporation.com</strong>
+                </div>
+
+                <div className="cert-row">
+                  <span style={{ color: 'var(--text-muted)' }}>Engineering Division</span>
+                  <a href="mailto:engineering.solutions@sascorporation.com" style={{ color: 'var(--eng-primary)', fontWeight: 600, fontSize: '0.85rem' }}>
+                    engineering.solutions@sascorporation.com
+                  </a>
+                </div>
+
+                <div className="cert-row">
+                  <span style={{ color: 'var(--text-muted)' }}>AquaCorp Division</span>
+                  <a href="mailto:aquacorp@sascorporation.com" style={{ color: 'var(--chem-primary)', fontWeight: 600, fontSize: '0.85rem' }}>
+                    aquacorp@sascorporation.com
+                  </a>
+                </div>
+
+                <div className="cert-row">
+                  <span style={{ color: 'var(--text-muted)' }}>Corporate Email</span>
+                  <strong style={{ color: 'var(--text-heading)', fontSize: '0.85rem' }}>sandscorporationpvtltd@gmail.com</strong>
                 </div>
 
                 <div className="cert-row">

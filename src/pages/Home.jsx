@@ -497,12 +497,17 @@ export default function Home() {
                   <Mail size={22} />
                 </div>
                 <div>
-                  <div className="info-title">Official Correspondence</div>
-                  <a href="mailto:sandscorporationpvtltd@gmail.com" className="info-val" style={{ color: 'var(--chem-primary)', wordBreak: 'break-all' }}>
-                    sandscorporationpvtltd@gmail.com
-                  </a>
-                  <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '0.2rem' }}>
-                    Direct response within 24 business hours
+                  <div className="info-title">Division &amp; Corporate Emails</div>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem', marginTop: '0.35rem' }}>
+                    <a href="mailto:engineering.solutions@sascorporation.com" className="info-val" style={{ color: 'var(--eng-primary)', fontSize: '0.875rem', wordBreak: 'break-all' }}>
+                      engineering.solutions@sascorporation.com
+                    </a>
+                    <a href="mailto:aquacorp@sascorporation.com" className="info-val" style={{ color: 'var(--chem-primary)', fontSize: '0.875rem', wordBreak: 'break-all' }}>
+                      aquacorp@sascorporation.com
+                    </a>
+                    <a href="mailto:sandscorporationpvtltd@gmail.com" className="info-val" style={{ color: 'var(--text-muted)', fontSize: '0.825rem', wordBreak: 'break-all' }}>
+                      sandscorporationpvtltd@gmail.com
+                    </a>
                   </div>
                 </div>
               </div>

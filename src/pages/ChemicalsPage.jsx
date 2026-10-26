@@ -580,12 +580,12 @@ export default function ChemicalsPage() {
                   <Mail size={22} />
                 </div>
                 <div>
-                  <div className="info-title">Water Test Reports & Technical Support</div>
-                  <a href="mailto:sandscorporationpvtltd@gmail.com" className="info-val" style={{ color: 'var(--chem-primary)', wordBreak: 'break-all' }}>
-                    sandscorporationpvtltd@gmail.com
+                  <div className="info-title">AquaCorp Division Email</div>
+                  <a href="mailto:aquacorp@sascorporation.com" className="info-val" style={{ color: 'var(--chem-primary)', wordBreak: 'break-all', display: 'block' }}>
+                    aquacorp@sascorporation.com
                   </a>
                   <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '0.2rem' }}>
-                    Send lab water analysis sheets for free program sizing
+                    Corporate: <a href="mailto:sandscorporationpvtltd@gmail.com" style={{ color: 'var(--text-muted)' }}>sandscorporationpvtltd@gmail.com</a>
                   </div>
                 </div>
               </div>

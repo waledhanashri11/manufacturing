@@ -19,12 +19,15 @@ Official website for **S&S Corporation**, a multi-disciplinary industrial enterp
    - Effluent & Wastewater Treatment (ETP/STP Coagulants, Flocculants, De-coloring Agents)
    - Integrated Langelier Saturation Index (LSI) Water Scaling Calculator
 
-## Registered Headquarters
+## Registered Headquarters & Contact
 
 **S&S Corporation**  
 C Block, Pramukh Sangam, Samarvarni, Silvasaa, Dadra & Nagar Haveli  
+- **Official Domain:** [www.sascorporation.com](https://www.sascorporation.com)  
 - **Phone / WhatsApp:** +91 95612 40625  
-- **Email:** sandscorporationpvtltd@gmail.com  
+- **Corporate & Administrative Email:** sandscorporationpvtltd@gmail.com  
+- **S&S Engineering Solutions Email:** engineering.solutions@sascorporation.com  
+- **AquaCorp Chemicals Email:** aquacorp@sascorporation.com  
 - **GSTIN:** 26EOKPS6065H1ZD  
 - **MSME UDYAM:** UDYAM-DN-01-0005998  
 
